@@ -15,10 +15,10 @@ const Header = () => {
             <div className="container flex justify-between items-center py-[30px]">
                 <h1 className="text-white font-bold text-4xl">Castaway</h1>
                 <div className="text-white">
-                    <a href="#" className="mx-8">Home</a>
-                    <a href="#" className="mx-8">Episodes</a>
-                    <a href="#" className="mx-8">About</a>
-                    <a href="#" className="mx-8">Contact</a>
+                    <a href="#" className="mx-8 hover:text-blue-600">Home</a>
+                    <a href="#" className="mx-8 hover:text-blue-600">Episodes</a>
+                    <a href="#" className="mx-8 hover:text-blue-600">About</a>
+                    <a href="#" className="mx-8 hover:text-blue-600">Contact</a>
                 </div>
             </div>
         </div>
