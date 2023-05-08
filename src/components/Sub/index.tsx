@@ -7,7 +7,7 @@ const Sub = () => {
                 <p className="text-blue-500">Email Newsletter</p>
                 <h1 className="text-white font-bold text-6xl">Subscribe <br/> for updates</h1>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-white">
                 <input type="text" placeholder="Name" className="bg-[#181818] w-[500px] h-[50px] p-5 rounded-[10px]"/>
                 <input type="text" placeholder="Email" className="bg-[#181818] w-[500px] h-[50px] p-5 my-[20px] rounded-[10px]"/>
                 <button

@@ -9,19 +9,19 @@ import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="bg-[#181818]">
-        <div className="container">
+    return (
+        <div className="bg-[#181818]">
             <Header/>
-            <Hero/>
-            <Episode/>
-            <Jacob/>
-            <Sub/>
-            <Reviews/>
-            <Footer/>
+            <div className="container">
+                <Hero/>
+                <Episode/>
+                <Jacob/>
+                <Sub/>
+                <Reviews/>
+                <Footer/>
+            </div>
         </div>
-    </div>
-  );
+    );
 }
 
 export default App;
